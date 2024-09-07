@@ -16,7 +16,7 @@
 #datetime-picker:hover {
   border-color: #000;
 }
-#datetime-picker:active {
+#datetime-picker:focus-within {
   border-color: #4e75ff;
 }
 #datetime-picker:disabled {
