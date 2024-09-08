@@ -5,7 +5,7 @@ main {
     width: 360px;
     text-align: left;
 }
-input[type="number"] {
+label input[type="number"] {
     box-sizing: border-box;
     font-weight: 400;
     font-size: 16px;
@@ -22,10 +22,10 @@ input[type="number"] {
     margin-top: 8px;
     margin-bottom: 16px;
   }
-  input[type="number"]:hover {
+  label input[type="number"]:hover {
     border-color: #000;
   }
-  input[type="number"]:focus-within {
+  label input[type="number"]:focus-within {
     border-color: #4e75ff;
   }
 
