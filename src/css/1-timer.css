@@ -25,6 +25,7 @@
 }
 
 [data-start] {
+  font-family: 'Montserrat', sans-serif;
   border-radius: 8px;
   padding: 8px 16px;
   width: 75px;

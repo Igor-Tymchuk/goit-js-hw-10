@@ -33,6 +33,7 @@ const options = {
                 messageColor: "#fff",
                 position: 'topRight', 
                 icon: "ico-error",
+                theme: 'dark',
             });
         };
     },
@@ -49,17 +50,16 @@ const startTimer = () => {
         minutesValue.textContent = String(Math.floor(timeForStart % (60 * 60) / 60)).padStart(2, 0);
         secondsValue.textContent = String(timeForStart % 60).padStart(2, 0);
         selectedTime--;
-        console.log("timerID:", timerID)
-        console.log("timeForStart:", timeForStart)
         if (timeForStart === 0) {
             clearInterval(timerID)
             buttonStart.removeAttribute("disabled");
             dateTime.removeAttribute("disabled");
             iziToast.info({
-                message: "Interval stopped",
+                message: "Interval stopped!",
                 backgroundColor: "#09f",
                 messageColor: "#fff",
                 position: 'topRight', 
+                theme: 'dark',
             });
             };
     }, 1000)
