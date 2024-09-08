@@ -35,7 +35,6 @@ input[type="number"] {
     border-radius: 8px;
     padding: 8px 16px;
     width:360px;
-    margin-top: 24px;
     height: 40px;
     background-color: #4e75ff;
     transition: background-color 300ms ease;
@@ -60,5 +59,6 @@ input[type="number"] {
     justify-content: center;
     align-items: end;
     gap: 48px;
+    margin-bottom: 24px;
   }
 

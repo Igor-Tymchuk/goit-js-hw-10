@@ -30,9 +30,8 @@ const options = {
             iziToast.error({
                 message: "Please choose a date in the future",
                 backgroundColor: "#ef4040",
-                messageColor: "#fff",
+                messageColor: "#ffffff",
                 position: 'topRight', 
-                icon: "ico-error",
                 theme: 'dark',
             });
         };
@@ -56,8 +55,8 @@ const startTimer = () => {
             dateTime.removeAttribute("disabled");
             iziToast.info({
                 message: "Interval stopped!",
-                backgroundColor: "#09f",
-                messageColor: "#fff",
+                backgroundColor: "#0090f0",
+                messageColor: "#ffffff",
                 position: 'topRight', 
                 theme: 'dark',
             });
